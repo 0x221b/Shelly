@@ -53,11 +53,11 @@ def main(argv):
   file.close()
 
 # Can start reverse shell if required
-  print (Fore.RED + "Would you like to start a reverse shell?")
+  print (Fore.RED + "Would you like to start a nc listener?")
   answer = input("(y/N) ")
   print(Style.RESET_ALL)
   if answer in ("yes", "y"):
-    print("Loading reverse shell on port 53")
+    print("Loading listener on port 53")
     os.system("nc -lvp 53")
   else:
     print ("Happy Hacking, exiting...")
