@@ -16,3 +16,10 @@ bash, python, perl, ruby, telnet, nc, wget, php
 If lang is set to all it will print all available options
 
 The port for the reverse shell to connect to is set to 53 as this is commonly allowed past rules etc. If you wish to change it you will need to edit revshells.txt and shelly.py in the listener section.
+
+Disclaimer - You should only ever attempt to get a reverse shell on your own system or one you have express permission to do so.
+
+
+To do:
+add details of how to upgrade a poor reverse shell so tab etc work
+add metasploit rev shell and custom shellcode reverse shell payload 
