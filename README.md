@@ -4,8 +4,10 @@ Script lets you input your IP and programming language and prints out one liner 
 usage:
 python3 shelly.py -ip 127.0.0.1 -lang php
 
-options:
+Options
+
 -i --ip: IP address for the rev shell to connect back to
+
 -l --lang: language of shell wanted
 
 Currently available languages:
